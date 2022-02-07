@@ -1,0 +1,136 @@
+html {
+  background-color: #42b983;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#nav {
+  padding: 60px 30px 30px 30px;
+}
+
+#nav a {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+text {
+  font-size: 20px;
+  color: white;
+}
+
+#nav a.router-link-exact-active {
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+}
+
+.todoinput input {
+  height: 40px;
+  width: 500px;
+  border-radius: 10px;
+  font-size: 20px;
+  /* 輸入框右移 */
+  padding-left: 20px;
+}
+
+.todoListItem {
+  height: 80px;
+  width: 526px;
+  background-color: white;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.todoListItem .toggle {
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.todoListItem .todotext {
+  margin-left: -15px;
+  width: 400px;
+  height: 30px;
+  text-align: start;
+  line-height: 30px;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.todoListItem .toggle:checked + .todotext {
+  color: #d9d9d9;
+  text-decoration: line-through;
+}
+
+.todoListItem .destroy {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: none;
+}
+
+.todoListItem .destroy::before {
+  display: block;
+  content: 'x';
+  font-weight: 300;
+  font-size: 24px;
+  color: red;
+  font-family: Arial, sans-serif;
+}
+
+/* .round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: '';
+  height: 6px;
+  left: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+.round input[type='checkbox'] {
+  visibility: hidden;
+}
+
+.round input[type='checkbox']:checked + label {
+  background-color: #66bb6a;
+  border-color: #66bb6a;
+}
+
+.round input[type='checkbox']:checked + label:after {
+  opacity: 1;
+} */
