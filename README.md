@@ -1,4 +1,4 @@
-<h3 align="center">Nextmeal</h3>
+<h3 align="center">TodoList</h3>
 <p align="center">
   <a href="https://jason03171.github.io/todolist/"><strong>Click to see the website!</strong></a>
   <br>
